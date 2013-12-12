@@ -27,7 +27,6 @@ public class LoginActivity extends Activity {
 
 			@Override
 			public void onClick(View view) {
-//				Facebook mFacebook = new Facebook(appId);
 				connectFacebook();
 			}
 		});
