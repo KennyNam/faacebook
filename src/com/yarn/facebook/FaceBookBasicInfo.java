@@ -1,19 +1,11 @@
 package com.yarn.facebook;
-
-public class FaceBookBasicInfo {
-
-}
-
-
-package org.androidtown.sns.faceapp;
  
 import java.text.SimpleDateFormat;
  
 import android.graphics.Bitmap;
- 
 import com.facebook.android.Facebook;
- 
-public class BasicInfo {
+
+public class FaceBookBasicInfo {
  
     public static final int REQ_CODE_FACEBOOK_LOGIN = 1001;
  
@@ -25,9 +17,9 @@ public class BasicInfo {
     public static String[] FACEBOOK_PERMISSIONS = {"publish_stream", "read_stream", "user_photos", "email"};
  
     public static String FACEBOOK_ACCESS_TOKEN = "";
-    public static String FACEBOOK_APP_ID = "221338014552043";
-    public static String FACEBOOK_API_KEY = "224a8cee1a78a9fbb040bdad7153674a";
-    public static String FACEBOOK_APP_SECRET = "b7fb049c5f64f2db51b34f6206376220";
+    public static String FACEBOOK_APP_ID = "660054474025835";
+    public static String FACEBOOK_API_KEY = "";
+    public static String FACEBOOK_APP_SECRET = "7bfecb806558c7c0bcdd543d833e7b97";
  
     public static String FACEBOOK_NAME = "";
  
