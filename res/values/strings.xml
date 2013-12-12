@@ -4,5 +4,6 @@
     <string name="app_name">facebook</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+	<!-- facebook 관련 -->
+    <string name="app_id">660054474025835</string>
 </resources>

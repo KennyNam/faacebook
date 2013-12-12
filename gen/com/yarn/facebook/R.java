@@ -219,7 +219,6 @@ containing a value of this type.
         public static final int ic_launcher=0x7f020020;
     }
     public static final class id {
-        public static final int action_settings=0x7f040019;
         public static final int com_facebook_login_activity_progress_bar=0x7f040006;
         public static final int com_facebook_picker_activity_circle=0x7f040005;
         public static final int com_facebook_picker_checkbox=0x7f040008;
@@ -268,6 +267,9 @@ containing a value of this type.
     }
     public static final class string {
         public static final int action_settings=0x7f07001a;
+        /**  facebook 관련 
+         */
+        public static final int app_id=0x7f07001c;
         public static final int app_name=0x7f070019;
         public static final int com_facebook_choose_friends=0x7f07000f;
         public static final int com_facebook_dialogloginactivity_ok_button=0x7f070000;
