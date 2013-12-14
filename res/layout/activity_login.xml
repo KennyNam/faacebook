@@ -6,10 +6,43 @@
 	
     <Button 
         android:id="@+id/facebook_login_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="facebook login"
+        android:layout_width="270.5dp"
+        android:layout_height="45dp"
+        android:text="Connect with Facebook"
         android:layout_gravity="center_vertical|center_horizontal"
         />
-
+    
+    <EditText 
+        android:id="@+id/login_email_edittext"
+        android:layout_width="270.5dp"
+        android:layout_height="45dp"
+        android:hint="Email address"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+    
+    <EditText 
+        android:id="@+id/login_password_edittext"
+        android:layout_width="270.5dp"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+    
+    <Button 
+        android:id="@+id/http_test_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Http test"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+    
+    <Button 
+        android:id="@+id/http_test_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Http test"
+        android:layout_gravity="center_vertical|center_horizontal"
+        />
+    
+    
 </LinearLayout>
