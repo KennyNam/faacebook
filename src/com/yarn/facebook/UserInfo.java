@@ -9,5 +9,8 @@ public class UserInfo {
 	
 	private UserInfo() {}
 	
-    public static final String USER_TOKEN = null;
+    public static String TOKEN = "";
+    public static String ID = "";
+    public static String STATUS = "";
+    public static String USER_ID = "";
 }

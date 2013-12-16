@@ -25,6 +25,8 @@ public class FaceBookBasicInfo {
  
     public static String FACEBOOK_NAME = "";
     public static String FACEBOOK_EMAIL = "";
+    public static String FACEBOOK_ID = "";
+    public static String FACEBOOK_IMAGE_URL = "";
  
     public static SimpleDateFormat OrigDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ssZ");
     public static SimpleDateFormat DateFormat = new SimpleDateFormat("yyyy년 MM월 dd일 HH시 mm분");
