@@ -16,7 +16,7 @@
         
         
         <activity
-            android:name="com.yarn.facebook.LoginActivityUseFacebookInstance"
+            android:name="com.yarn.facebook.FaceBookLoginActivity"
             android:label="facebook" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
