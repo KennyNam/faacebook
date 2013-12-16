@@ -18,6 +18,8 @@ import com.facebook.android.DialogError;
 import com.facebook.android.Facebook;
 import com.facebook.android.Facebook.DialogListener;
 import com.facebook.android.FacebookError;
+import com.turbomanage.httpclient.BasicHttpClient;
+import com.turbomanage.httpclient.HttpResponse;
 import com.turbomanage.httpclient.ParameterMap;
 import com.yarn.http.HttpPostAsyncTask;
 
@@ -73,7 +75,7 @@ public class FaceBookLoginActivity extends Activity {
 		Log.e("facebook_id", FaceBookBasicInfo.FACEBOOK_ID);
 		Log.e("image_url", FaceBookBasicInfo.FACEBOOK_IMAGE_URL);
 		Log.e("email", FaceBookBasicInfo.FACEBOOK_EMAIL);
-		
+        
 		mHttpPostAsyncTask = new HttpPostAsyncTask (FaceBookLoginActivity.this, url, path, params);
 		mHttpPostAsyncTask.execute();
 	}
@@ -114,6 +116,7 @@ public class FaceBookLoginActivity extends Activity {
 						FaceBookBasicInfo.FACEBOOK_ACCESS_TOKEN = FaceBookBasicInfo.FacebookInstance.getAccessToken();
 						signUpWithFacebook();
 					} catch (Exception e) {
+						e.printStackTrace();
 					}
 				}
 			};
